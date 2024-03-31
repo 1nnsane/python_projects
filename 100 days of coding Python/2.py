@@ -1,4 +1,4 @@
-#DAY 1 COURSE
+#DAY 2 COURSE
 #= 19 lesson ==================================================
 
 #Data Types
