@@ -1,5 +1,4 @@
 # https://www.youtube.com/watch?v=KckAaeVob74 (pushed by this video)
-
 #DAY 1 COURSE
 #= 11 lesson ==================================================
 #print function rules
@@ -43,6 +42,4 @@ grow_city = input("What is the city u grow up in?:\n")
 pet_name = input("What is the name of ur pet?:\n")
 print("Ur city and pet band name is: " + grow_city + " " + pet_name)
 #==============================================================
-
-#DAY 2 COURSE
 
