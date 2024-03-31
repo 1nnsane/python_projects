@@ -91,4 +91,4 @@ print("Method 1: Each have to pay:", total_for_each)
 #Method 2, answer = 33.60 by using - "{:.2f}".format()
 total_for_each = "{:.2f}".format(((total_bill+tips_per_each)/amount_people))
 print("Method 2: Each have to pay:", total_for_each)
-#====================================================
+#===================================================
