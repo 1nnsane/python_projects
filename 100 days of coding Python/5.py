@@ -43,3 +43,17 @@ total = 0
 for i in range(1, 101): #Gauss (1+2+3+4+...+96+97+98+99+100)
     total += i
     print(f"{i}: total: {total}")
+
+# 55
+target = int(input()) # Enter a number between 0 and 1000
+#Source code (Method 1):
+even_sum = 0
+for number in range (2, target + 1, 2):
+  even_sum += number
+print(even_sum)
+##Source code (Method 2):
+alternative_sum = 0
+for number in range(1, target + 1):
+  if number % 2 == 0:
+    alternative_sum += number
+print(alternative_sum)
