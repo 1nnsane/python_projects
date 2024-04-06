@@ -25,3 +25,9 @@ for number in range (0, 10): #from 0 to 9 (not include 10)
     print(number) #0-9
 for number in range (0, 10, 2): #3th number it's a step: +2
     print(number) #0,2,4,6,8
+
+#shuffle
+x = [1, 2, 3, 4, 5]
+random.shuffle(x)
+print(x)
+
