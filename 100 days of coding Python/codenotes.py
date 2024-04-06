@@ -25,9 +25,26 @@ for number in range (0, 10): #from 0 to 9 (not include 10)
     print(number) #0-9
 for number in range (0, 10, 2): #3th number it's a step: +2
     print(number) #0,2,4,6,8
+#for item in list_of_items:     method 1
+    #do something
+#for number in range(a, b)      method 2
+    #print(number)
+
+#while loop
+#while something_is_true:
+    #do something repeatedly
+a = 2
+while a != 5: #or while not 5:
+    print("hi")
+    a += 1
 
 #shuffle
 x = [1, 2, 3, 4, 5]
 random.shuffle(x)
 print(x)
 
+#function def
+def name_of_function(var1, var2):
+    summary = var1 + var2
+    print(summary)
+name_of_function(5,2)
