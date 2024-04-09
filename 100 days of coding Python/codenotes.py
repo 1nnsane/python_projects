@@ -48,3 +48,15 @@ def name_of_function(var1, var2):
     summary = var1 + var2
     print(summary)
 name_of_function(5,2)
+
+
+print ("hellO worlD")
+
+message = "hellO worlD"
+print (message.title())
+
+message = "hellO worlD"
+print (message.upper())
+
+message = "hellO worlD"
+print (message.lower())
