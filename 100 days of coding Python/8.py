@@ -10,4 +10,3 @@ def greet_with_name(name):
     print(f"how are you {name}")
     print(f"isn't it a green weather, {name}")
 greet_with_name("Angela")
-
