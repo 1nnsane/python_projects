@@ -73,3 +73,18 @@ for key in example_dictionary:
     print(key) #print KEY
     print(example_dictionary[key]) #print VALUE of KEY (Bug: "It is bug #404"
 example_dictionary = {} # empty new_dicrionary (to clear data, or game is over and clear player exp etc)
+
+#nested list, dictionary
+travel_log = [
+    {
+        "country": "France",
+        "visits": 12,
+        "cities": ["Paris", "Lille", "Dijon"]
+    },
+]
+new_country = {}
+new_country["country"] = "Brazil"
+new_country["visits"] = 2
+new_country["cities"] = "Sao Paolo"
+travel_log.append(new_country)
+print(travel_log[1])
