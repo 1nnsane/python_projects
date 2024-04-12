@@ -73,4 +73,3 @@ for key in example_dictionary:
     print(key) #print KEY
     print(example_dictionary[key]) #print VALUE of KEY (Bug: "It is bug #404"
 example_dictionary = {} # empty new_dicrionary (to clear data, or game is over and clear player exp etc)
-
