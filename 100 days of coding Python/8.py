@@ -26,4 +26,5 @@ def prime_checker(number):
 n = int(input("print number, i will check if its prime or not: "))  # Check this number
 prime_checker(number=n)
 
-#86
+#86 Ceaser Cipher part 1 - Encryption
+

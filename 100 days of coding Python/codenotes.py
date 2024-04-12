@@ -19,6 +19,7 @@ vegetables = ["tomato", "potato", "spinach"]
 mix = [fruits + vegetables]; print(mix)
 #add to existing list "apple"
 fruits.append("apple"); print(fruits)
+empty_list = [] #creating empty list
 
 #for loop
 for number in range (0, 10): #from 0 to 9 (not include 10)
@@ -54,3 +55,22 @@ message = "hellO worlD"
 print (message.title())
 print (message.upper())
 print (message.lower())
+
+#dictionary ----> name_of_dictionary = {"KEY": "VALUE"}
+example_dictionary = { #creating dictionary
+    "Bug": "It is bug #404",
+    "Function": "Some Function",
+    "Loop": "Repeating "
+}
+print(example_dictionary) #printing dictionary
+example_dictionary ["New"] = "New info" #add to dictionary
+example_dictionary["Bug"] = "Moth in your computer" #change existing "Bug": statement to another
+print(example_dictionary) #printing with new "Bug"
+
+for i in example_dictionary: #gives just KEYs of example_dictionary
+    print(i) #Bug, Function, Loop, New
+for key in example_dictionary:
+    print(key) #print KEY
+    print(example_dictionary[key]) #print VALUE of KEY (Bug: "It is bug #404"
+example_dictionary = {} # empty new_dicrionary (to clear data, or game is over and clear player exp etc)
+
