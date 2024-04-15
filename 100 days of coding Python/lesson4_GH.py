@@ -27,18 +27,21 @@ else:
 print(f"array: {array1} is palindromic: {polin}")
 
 # 4.3.4 Remove duplicates from a sorted array
+# Don't working if duplicates in the middle of list
 array_sorted = [1, 2, 3, 4, 5, 5]
+print(f"Current list {array_sorted}")
 answer = False
+
 for i in range(0, len(array_sorted)):  # len = 0-5 (6)
     if array_sorted[i] == len(array_sorted):
         break
     else:
         if array_sorted[i] == array_sorted[i-1]:
             answer = True
-
-            #print("Find duplicate")
+            array_sorted.pop()
         else:
             answer = False
-            #print("No duplicate")
+
 print(f"Find duplicate: {answer}")
+print(f"This List {array_sorted} with no duplicates")
 
