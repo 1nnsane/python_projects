@@ -88,3 +88,9 @@ new_country["visits"] = 2
 new_country["cities"] = "Sao Paolo"
 travel_log.append(new_country)
 print(travel_log[1])
+
+#address (pointer)
+a = "corey"
+print(a)
+print(format(id(a))) #address of a
+
