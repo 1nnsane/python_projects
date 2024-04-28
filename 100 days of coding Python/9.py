@@ -111,3 +111,5 @@ def add_new_country(names, times_visited, cities_visited):
 add_new_country(country, visits, list_of_cities)
 print(f"I've been to {travel_log[2]['country']} {travel_log[2]['visits']} times.")
 print(f"My favourite city was {travel_log[2]['cities'][0]}.")
+
+#97 Project

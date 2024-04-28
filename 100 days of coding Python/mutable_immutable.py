@@ -1,4 +1,4 @@
-#  IMMUTABLE
+#  IMMUTABLE (Неизменчивый)
 a = "corey"
 print(a)
 print(format(id(a)))  # address of a
@@ -10,7 +10,7 @@ print(format(id(a)))  # address of new copy a
 
 print("==============================================================")
 
-#  MUTABLE - LIST
+#  MUTABLE (Изменчивый) - LIST
 # modifying list, address is same
 a = [1, 2, 3, 4, 5]
 print(a)

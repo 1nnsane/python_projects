@@ -94,4 +94,10 @@ a = "corey"
 print(a)
 print(format(id(a))) #address of a
 
+#function with outputs
+def my_function(a, b):
+    res = a * b
+    return res
+multip = my_function(2,5)
+print(multip)
 
